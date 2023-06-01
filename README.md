@@ -24,7 +24,6 @@ Com isso o NodeMCU irá aparecer na sua lista de placas disponíveis. Para utili
   <img src="https://www.arduinoecia.com.br/wp-content/uploads/2019/04/IDE-Arduino-Selecao-Placa-Nodemcu-ESP8266-600x329.jpg" width=400><br>
 </div>
 
-  
 Após carregar o programa, talvez seja necessário pressionar o botão **RST** (**RESET**) do ESP8266 NodeMCU para que o programa seja corretamente executado.
 
 ## Execução
