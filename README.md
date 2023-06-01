@@ -3,10 +3,10 @@
 # ACS712-30A
 
 ## Execução
-Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0, que no programa são
-
+Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0.
+  
 <div align="center">
-  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/a5dd74d1-0987-439f-bd32-e2eff18e6336" width=600><br>
+  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/561e7dbd-e0cc-4845-b395-99b07b2824e4" width=600><br>
 </div>
 
 ## Configuração da IDE Arduino para o NodeMCU
