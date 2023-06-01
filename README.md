@@ -1,8 +1,8 @@
 <div  Align="justify">
-# RDM6300
+# ACS712-30A
 
-## Execução do trabalho
-Crie o repositorio e abra a pasta **RFiD** na IDE do Arduino, para posteriormente upar o codigo para o microcontrolador desejado. No meu caso o modulo RDM6300 foi utilizado juntamente com ESP8266 NodeMCU, o esquematico de ligação pode ser encontrado logo abaixo, utilizando os pinos marcados no ESP8266 NodeMCU como D6 e D7, que no programa são identificados como pinos 12 e 13.
+## Execução
+Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0, que no programa são
 
 <div align="center">
   <img src="https://www.arduinoecia.com.br/wp-content/uploads/2020/08/Circuito-ESP8266-NodeMCU-Leitor-RDIF-RDM6300-1024x585.jpg" width=600><br>
