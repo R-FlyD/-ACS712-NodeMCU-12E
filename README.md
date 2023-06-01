@@ -28,10 +28,10 @@ Com isso o NodeMCU irá aparecer na sua lista de placas disponíveis. Para utili
 Após carregar o programa, talvez seja necessário pressionar o botão **RST** (**RESET**) do ESP8266 NodeMCU para que o programa seja corretamente executado.
 
 ## Execução
-Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0, que no programa são
+Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0.
 
 <div align="center">
-  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/dc0697c9-38ef-4bdf-b06a-e938f2d8f6b9" width=600><br>
+  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/b654e5d2-4e8d-4ed8-b658-6d9321bdba0f" width=600><br>
 </div>
 
 Para se utilizar o sensor com o nodeMCU você precisará:
