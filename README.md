@@ -1,14 +1,6 @@
 <div  Align="justify">
 
 # ACS712-30A
-
-## Execução
-Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0, que no programa são
-
-<div align="center">
-  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/a5dd74d1-0987-439f-bd32-e2eff18e6336" width=600><br>
-</div>
-
 ## Configuração da IDE Arduino para o NodeMCU
 
 Para incluir a placa ESP8266 NodeMCU na IDE Arduino, acesse o menu Arquivo e em seguida Preferências. No campo URLs Adicionais para Gerenciadores de Placas preencha com o seguinte endereço:
@@ -35,14 +27,20 @@ Com isso o NodeMCU irá aparecer na sua lista de placas disponíveis. Para utili
   
 Após carregar o programa, talvez seja necessário pressionar o botão **RST** (**RESET**) do ESP8266 NodeMCU para que o programa seja corretamente executado.
 
-Com o programa carregado, basta aproximar a tag da antena e o led irá acender. Se você não tem um led ou deseja apenas testar o módulo, pode acompanhar o resultado também pelo **Serial Monitor**, onde a ID da tag é mostrada:
-  
-  
+## Execução
+Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0, que no programa são
+
 <div align="center">
-  <img src="https://www.arduinoecia.com.br/wp-content/uploads/2020/08/Serial-Monitor-Leitor-RFID-RDM6300.jpg" width=450><br>
+  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/dc0697c9-38ef-4bdf-b06a-e938f2d8f6b9" width=600><br>
 </div>
 
+Para se utilizar o sensor com o nodeMCU você precisará:
+- Alimentação de 5V para o sensor, pino Vin se a alimentação da placa for via USB.
+- A entrada ADC do ESP8266 funciona na faixa de 0-1 Volts, isso significa que você precisa usar o divisor de tensão para converter a faixa de 0-5V da saida do sensor para 0-1V.
+ 
+Com o programa carregado, espere alguns segundos para a calibragem do sensor e posteriormente coloque o sensor de corente em serie do circuito a ser analizado.
+
 # Autores
-| [<img src="https://avatars.githubusercontent.com/u/56831082?v=4" width=115><br><sub>Arthur Coelho Estevão</sub>](https://github.com/arthurcoelho442) |  [<img src="https://avatars.githubusercontent.com/u/56406192?v=4" width=115><br><sub>Milena da Silva Mantovanelli</sub>](https://github.com/Milena0899) |
-| :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/56831082?v=4" width=115><br><sub>Arthur Coelho Estevão</sub>](https://github.com/arthurcoelho442) |
+| :---: |
 </div>
