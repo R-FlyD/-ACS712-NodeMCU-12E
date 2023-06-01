@@ -36,12 +36,7 @@ Com isso o NodeMCU irá aparecer na sua lista de placas disponíveis. Para utili
 Após carregar o programa, talvez seja necessário pressionar o botão **RST** (**RESET**) do ESP8266 NodeMCU para que o programa seja corretamente executado.
 
 Com o programa carregado, basta aproximar a tag da antena e o led irá acender. Se você não tem um led ou deseja apenas testar o módulo, pode acompanhar o resultado também pelo **Serial Monitor**, onde a ID da tag é mostrada:
-  
-  
-<div align="center">
-  <img src="https://www.arduinoecia.com.br/wp-content/uploads/2020/08/Serial-Monitor-Leitor-RFID-RDM6300.jpg" width=450><br>
-</div>
-
+ 
 # Autores
 | [<img src="https://avatars.githubusercontent.com/u/56831082?v=4" width=115><br><sub>Arthur Coelho Estevão</sub>](https://github.com/arthurcoelho442) |  [<img src="https://avatars.githubusercontent.com/u/56406192?v=4" width=115><br><sub>Milena da Silva Mantovanelli</sub>](https://github.com/Milena0899) |
 | :---: | :---: |
