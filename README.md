@@ -1,14 +1,13 @@
 <div  Align="justify">
+
 # ACS712-30A
 
 ## Execução
 Crie o repositorio e abra a pasta **ACS712** na IDE do Arduino, para posteriormente upar o codigo com o microcontrolador desejado. No meu caso o modulo foi utilizado juntamente com ESP8266 NodeMCU-12E, o esquematico de ligação pode ser encontrado logo abaixo, utilizando o pino Analogico do ESP8266 NodeMCU A0, que no programa são
 
 <div align="center">
-  <img src="https://www.arduinoecia.com.br/wp-content/uploads/2020/08/Circuito-ESP8266-NodeMCU-Leitor-RDIF-RDM6300-1024x585.jpg" width=600><br>
+  <img src="https://github.com/arthurcoelho442/ACS712-NodeMCU-12E/assets/56831082/a5dd74d1-0987-439f-bd32-e2eff18e6336" width=600><br>
 </div>
-
-Ao invez de utilizar o led secundario foi utilizado o proprio led da placa do NodeMCU, pino D4.
 
 ## Configuração da IDE Arduino para o NodeMCU
 
